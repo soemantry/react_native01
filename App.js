@@ -9,7 +9,8 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  Image //tambahan
 } from 'react-native';
 
 const instructions = Platform.select({
@@ -35,18 +36,27 @@ export default class App extends Component<Props> {
 		   <Text style={styles.welcome}>
       	   XI RPL 2!
 		   </Text>
-
+           
+           
 		   <Text style={styles.welcome}>
       	  absen 14!
 		   </Text>
 
         <Text style={styles.instructions}>
  		  To get started, edit App.js
-        </Text>
+        </Text> 
 
         <Text style={styles.instructions}>
           {instructions}
         </Text>
+
+         <Image //cara nganu gambar 
+      style={{width: 250, height: 250}}
+      source={require('G:\ok.jpg')}
+      > </Image>
+
+
+
       </View>
 	  
     );
