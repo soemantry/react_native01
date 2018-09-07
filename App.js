@@ -9,10 +9,11 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
    //tambahan
 } from 'react-native';
- 
+ import Judul from './components/Judul';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -26,7 +27,7 @@ export default class App extends Component<Props> {
   render() {
     return (
           <View>
-         
+          <Judul> </Judul>
 
 		    <Text style={styles.welcome}>
       	   Diptya Bagus Sumantry!
@@ -46,7 +47,7 @@ export default class App extends Component<Props> {
         </Text> 
 
     
-        
+        <Image source={require('./ok.jpg')} style={{width: 350,height: 250}} />
 
 
       </View>
