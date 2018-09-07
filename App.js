@@ -3,20 +3,22 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-
+export default class Judul extends Component{
 import React, { Component } from 'react';
 import {
   Platform,
   StyleSheet,
   Text,
   View,
-  Image //tambahan
+  Image
+   //tambahan
 } from 'react-native';
+ 
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
+  android: 'Double tap R on your keyboard to reloadr,\n' +
     'Shake or press menu button for dev menu',
 });
 
@@ -24,10 +26,8 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
+          <View>
+         
 
 		    <Text style={styles.welcome}>
       	   Diptya Bagus Sumantry!
@@ -43,25 +43,18 @@ export default class App extends Component<Props> {
 		   </Text>
 
         <Text style={styles.instructions}>
- 		  To get started, edit App.js
+ 		  Tararam14
         </Text> 
 
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
-
-         <Image //cara nganu gambar 
-      style={{width: 250, height: 250}}
-      source={require('G:\ok.jpg')}
-      > </Image>
-
+    
+        
 
 
       </View>
 	  
     );
   }
-}
+}}
 
 const styles = StyleSheet.create({
   container: {
