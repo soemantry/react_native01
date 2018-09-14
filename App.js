@@ -27,7 +27,13 @@ export default class App extends Component<Props> {
   render() {
     return (
           <View>
+<<<<<<< HEAD
+          <Judul BIODATA="BIODATA"/>
+          <Judul BIODATA="LOGIN"/>
+          <Judul BIODATA="KELAS"/>
+=======
           <Judul> </Judul>
+>>>>>>> 4b5010b38808d4f90b14b68b060227bf1c19f7de
 
 		    <Text style={styles.welcome}>
       	   Diptya Bagus Sumantry!
